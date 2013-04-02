@@ -23,7 +23,7 @@ module.exports = parser = function(recipient, spec) {
   return function(emitter, buffer) {
     
     // keep raw working
-    emitter.emit('data', buffer);
+    //emitter.emit('data', buffer);
     
     var bufferpos = 0;
         
